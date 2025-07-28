@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banking-container">
+        <div class="balance-display" id="balanceDisplay">
+            $0
+        </div>
+
+        <div class="transaction-section">
+            <label for="depositAmount" class="input-label">Deposit Amount:</label>
+            <input type="number" id="depositAmount" class="amount-input" placeholder="Enter amount">
+            <button class="button deposit-button" id="depositButton">Deposit</button>
+        </div>
+
+        <div class="transaction-section">
+            <label for="withdrawAmount" class="input-label">Withdraw Amount:</label>
+            <input type="number" id="withdrawAmount" class="amount-input" placeholder="Enter amount">
+            <button class="button withdraw-button" id="withdrawButton">Withdraw</button>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
