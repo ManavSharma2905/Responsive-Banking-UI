@@ -5,12 +5,12 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #6213a3, #ec8bb0);
+    background: #D3D3D3,;
     color: #333;
 }
 
 .banking-container {
-    background-color: rgba(246, 241, 246, 0.838);
+    background-color: #f9f9f9;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgb(71, 143, 137);
